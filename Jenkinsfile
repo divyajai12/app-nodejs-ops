@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/divyajai12/app-nodejs-ops.git', branch: 'main'
+                git url: 'https://github.com/divyajai12/app-nodejs.git', branch: 'main'
             }
         }
 
